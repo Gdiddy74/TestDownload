@@ -16,7 +16,7 @@ sudo yum -y install mdatp &&
 sudo yum install python3 &&
 # Download latest onboarding package and unzip
 wget --no-check-certificate $github_path/WindowsDefenderATPOnboardingPackage.zip -O /WindowsDefenderATPOnboardingPackage.zip
-unzip /WindowsDefenderATPOnboardingPackage.zip &&
+# unzip /WindowsDefenderATPOnboardingPackage.zip &&
 # Run onboarding script
 #python MicrosoftDefenderATPOnboardingLinuxServer.py &&
 
